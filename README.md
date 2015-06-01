@@ -10,7 +10,7 @@ According to [perlipc](https://metacpan.org/pod/perlipc), Perl has two kind of s
 - unsafe
 
 Nomally, we should use safe signals.
-But if you use XS modules, you may want to unsafe signals.
+But if you use XS modules, you may want to use unsafe signals.
 
 For example, the following code (call `xs_fib(50)` with timeout 1sec)
 does not work; never timeout 1sec!
@@ -37,7 +37,7 @@ Ok, so should we use unsafe signals?
 As described in [perlipc](https://metacpan.org/pod/perlipc),
 unsafe signals does subject you to possible memory corruption.
 
-And I've experienced memory corruption in real-world code!
+And I've experienced hang in real-world code!
 See https://github.com/shoichikaji/perl-hang
 
 SO WHAT SHOLD WE DO?
