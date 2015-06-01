@@ -42,6 +42,18 @@ See https://github.com/shoichikaji/perl-hang
 
 SO WHAT SHOLD WE DO?
 
+# SEE ALSO
+
+[perlipc](http://perldoc.perl.org/perlipc.html#Deferred-Signals-\(Safe-Signals%29)
+
+[http://blogs.perl.org/users/leon\_timmermans/2012/01/what-you-should-know-about-signal-based-timeouts.html](http://blogs.perl.org/users/leon_timmermans/2012/01/what-you-should-know-about-signal-based-timeouts.html)
+
+[http://perl-users.jp/articles/advent-calendar/2009/data-model/03.html](http://perl-users.jp/articles/advent-calendar/2009/data-model/03.html)
+
+[http://lestrrat.ldblog.jp/archives/23209118.html](http://lestrrat.ldblog.jp/archives/23209118.html)
+
+[http://lestrrat.ldblog.jp/archives/23209250.html](http://lestrrat.ldblog.jp/archives/23209250.html)
+
 # LICENSE
 
 Copyright (C) Shoichi Kaji.
